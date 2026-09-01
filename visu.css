@@ -3,5 +3,16 @@ body {
  }
 
  button{
- 
+
+ background-color : #f30086; /*el coor del boton*/
+ color: #aa571475 /*el color del texto del botón */
+  padding: 15px 32px; /*el tamaño del boton*/
+  text-align: center;/*el tamaño del texto del boton*/
+  text-decoration: none;/*el tamaño del texto del boton*/
+  display: inline-block;/*el tamaño del boton*/
+  font-size: 16px;/*el tamaño del texto del boton*/
+  cursor: pointer;/*el tamaño del cursor*/
+  box-shadow: 0 9px #999;/*sombra del boton*/
+
+
  }
