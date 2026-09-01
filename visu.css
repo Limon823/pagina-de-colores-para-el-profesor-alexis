@@ -1,18 +1,14 @@
 body {
     background-color: #f30086; /*rojo*/
  }
-
- button{
-
- background-color : #f30086; /*el coor del boton*/
- color: #aa571475 /*el color del texto del botón */
-  padding: 15px 32px; /*el tamaño del boton*/
-  text-align: center;/*el tamaño del texto del boton*/
-  text-decoration: none;/*el tamaño del texto del boton*/
-  display: inline-block;/*el tamaño del boton*/
-  font-size: 16px;/*el tamaño del texto del boton*/
-  cursor: pointer;/*el tamaño del cursor*/
-  box-shadow: 0 9px #999;/*sombra del boton*/
-
-
- }
+button {
+    color: #0615e6de; /* el color del texto del botón */
+    padding: 15px 32px; /* el tamaño del botón (relleno interior) */
+    text-align: center; /* alinea el texto al centro */
+    text-decoration: none; /* quita cualquier subrayado del texto */
+    display: inline-block; /* comportamiento de la caja del botón */
+    font-size: 16px; /* el tamaño de la letra */
+    cursor: pointer; /* hace que el cursor cambie a una 'manita' al pasar por encima */
+    box-shadow: 0 9px #999; /* sombra debajo del botón */
+    background: linear-gradient(to right, #6be606de, #e66b06de); /* fondo con degradado */
+}
